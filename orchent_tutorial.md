@@ -9,7 +9,7 @@ We recommend to include the apt repository:
   ````
   sudo apt-key adv --keyserver hkp://hkps.pool.sks-keyservers.net --recv-keys ACDFB08FDC962044D87FF00B512839863D487A87
   ````
-- install the repository: choose one of the following lines depending on your distribution:
+- install the repository - choose one of the following lines depending on your distribution:
      ````
      sudo add-apt-repository "deb http://repo.data.kit.edu/debian/stable ./"
      sudo add-apt-repository "deb http://repo.data.kit.edu/debian/stretch ./"
@@ -20,7 +20,7 @@ We recommend to include the apt repository:
      sudo add-apt-repository "deb http://repo.data.kit.edu/ubuntu/18.04 ./"
      sudo add-apt-repository "deb http://repo.data.kit.edu/ubuntu/bionic ./"
      ````
-  Then
+ - install the `oidc-agent package:
      ````
      sudo apt-get update
      sudo apt-get install oidc-agent
