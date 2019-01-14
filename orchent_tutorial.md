@@ -28,5 +28,18 @@ We recommend to include the apt repository:
 
 The following video shows the installation steps on Ubuntu 16.04
 
-[![asciicast](https://asciinema.org/a/XCQS2DmZ9tEAZZarFhX9RWwbh.svg)](https://asciinema.org/a/XCQS2DmZ9tEAZZarFhX9RWwbh)
+[![asciicast](https://asciinema.org/a/j29geDDy5MkDBChRh90XMBrdd.svg)](https://asciinema.org/a/j29geDDy5MkDBChRh90XMBrdd)
+
+## Step 2: configure oidc-agent
+
+....
+
+[![asciicast](https://asciinema.org/a/A8lR6N4VrBN2hbsD2Lz2qH3gs.svg)](https://asciinema.org/a/A8lR6N4VrBN2hbsD2Lz2qH3gs)
+
+
+## Step 3: Install and configure orchent
+
+....
+
+[![asciicast](https://asciinema.org/a/YlylPeub6UzgAwVlU8VH183T8.svg)](https://asciinema.org/a/YlylPeub6UzgAwVlU8VH183T8)
 
