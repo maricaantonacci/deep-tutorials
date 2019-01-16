@@ -39,7 +39,7 @@ eval `oidc-agent`
 This command will start the agent and set the needed environment variables OIDC_SOCK and OIDC_PID.
 
 <table><tr><td>
-In order to make `oidc-agent` persistent, you can put the following lines in your `.bashrc`:
+In order to make <code>oidc-agent</code> persistent, you can put the following lines in your <code>.bashrc</code>:<p>
 <pre><code>
 test -e ~/tmp/oidc-agent.env && . ~/tmp/oidc-agent.env
 </code></pre>
@@ -48,6 +48,18 @@ From now on every new shell should have access to the agent.
 </p>
 </td></tr></table>
 
+Create the agent account configuration with the command:
+````
+oidc-gen
+````
+This command will register dynamically a client in IAM. You will be asked for some input: 
+
+- short name for the account to configure, e.g. deep
+- additional client-name-identifier (optional)
+- issuer: provide the endpoint of IAM, e.g. https://iam.deep-hybrid-datacloud.eu/
+- the list of scopes (default: openid profile offline_access)
+
+Then approve the registered client visiting the URL displayed by the command, as shown in the following video.
 
 [![asciicast](https://asciinema.org/a/A8lR6N4VrBN2hbsD2Lz2qH3gs.svg)](https://asciinema.org/a/A8lR6N4VrBN2hbsD2Lz2qH3gs)
 
