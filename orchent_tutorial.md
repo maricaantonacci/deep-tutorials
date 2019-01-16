@@ -20,7 +20,7 @@ We recommend to include the apt repository:
      sudo add-apt-repository "deb http://repo.data.kit.edu/ubuntu/18.04 ./"
      sudo add-apt-repository "deb http://repo.data.kit.edu/ubuntu/bionic ./"
      ````
- - install the `oidc-agent package:
+ - install the `oidc-agent` package:
      ````
      sudo apt-get update
      sudo apt-get install oidc-agent
@@ -32,7 +32,22 @@ The following video shows the installation steps on Ubuntu 16.04
 
 ## Step 2: configure oidc-agent
 
-....
+You can start the oidc-agent with the following command:
+````
+eval `oidc-agent`
+````
+This command will start the agent and set the needed environment variables OIDC_SOCK and OIDC_PID.
+
+<table><tr><td>
+In order to make `oidc-agent` persistent, you can put the following lines in your `.bashrc`:
+<pre><code>
+test -e ~/tmp/oidc-agent.env && . ~/tmp/oidc-agent.env
+</code></pre>
+Then run the agent: <pre>oidc-agent > ~/tmp/oidc-agent.env</pre>
+From now on every new shell should have access to the agent.
+</p>
+</td></tr></table>
+
 
 [![asciicast](https://asciinema.org/a/A8lR6N4VrBN2hbsD2Lz2qH3gs.svg)](https://asciinema.org/a/A8lR6N4VrBN2hbsD2Lz2qH3gs)
 
