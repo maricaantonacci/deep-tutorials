@@ -16,9 +16,7 @@ We recommend to include the apt repository:
      sudo add-apt-repository "deb http://repo.data.kit.edu/debian/testing ./"
      sudo add-apt-repository "deb http://repo.data.kit.edu/debian/buster ./"
      sudo add-apt-repository "deb http://repo.data.kit.edu/ubuntu/16.04 ./"
-     sudo add-apt-repository "deb http://repo.data.kit.edu/ubuntu/xenial ./"
      sudo add-apt-repository "deb http://repo.data.kit.edu/ubuntu/18.04 ./"
-     sudo add-apt-repository "deb http://repo.data.kit.edu/ubuntu/bionic ./"
      ````
  - install the `oidc-agent` package:
      ````
@@ -43,7 +41,9 @@ In order to make <code>oidc-agent</code> persistent, you can put the following l
 <pre><code>
 test -e ~/tmp/oidc-agent.env && . ~/tmp/oidc-agent.env
 </code></pre>
-Then run the agent: <pre>oidc-agent > ~/tmp/oidc-agent.env</pre>
+Then run the agent: 
+<pre>mkdir ~/tmp/
+oidc-agent > ~/tmp/oidc-agent.env</pre>
 From now on every new shell should have access to the agent.
 </p>
 </td></tr></table>
