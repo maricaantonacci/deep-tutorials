@@ -2,7 +2,7 @@
 
 ## Step 1: install oidc-agent
 
-Packages for Debian and Ubuntu are available at http://repo.data.kit.edu/ or ...
+Packages for Debian and Ubuntu are available at http://repo.data.kit.edu/
 We recommend to include the apt repository:
 
 - install the repository key:
@@ -66,7 +66,6 @@ Then approve the registered client visiting the URL displayed by the command, as
 
 ## Step 3: Install and configure orchent
 
-....
 
 [![asciicast](https://asciinema.org/a/YlylPeub6UzgAwVlU8VH183T8.svg)](https://asciinema.org/a/YlylPeub6UzgAwVlU8VH183T8)
 
