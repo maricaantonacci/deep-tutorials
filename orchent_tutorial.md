@@ -69,3 +69,6 @@ Then approve the registered client visiting the URL displayed by the command, as
 
 [![asciicast](https://asciinema.org/a/YlylPeub6UzgAwVlU8VH183T8.svg)](https://asciinema.org/a/YlylPeub6UzgAwVlU8VH183T8)
 
+---
+
+For more information please look at https://indigo-dc.gitbooks.io/orchent/
